@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Login Page */
+
+.login-container {
+    width: 300px;
+    margin: 120px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.login-container input {
+    width: 90%;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+.login-container button {
+    padding: 8px 15px;
+}
+
+
+/* Navbar */
+
+.navbar {
+    background: #333;
+    color: white;
+    padding: 10px;
+}
+
+.navbar select,
+.navbar button {
+    margin-right: 10px;
+}
+
+
+/* Layout */
+
+.container {
+    display: flex;
+}
+
+/* Sidebar */
+
+.sidebar {
+    width: 220px;
+    padding: 15px;
+    background: #f2f2f2;
+}
+
+.sidebar input,
+.sidebar select {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+
+.sidebar button {
+    width: 100%;
+}
+
+
+/* Main Content */
+
+.main {
+    flex: 1;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+
+/* Cards */
+
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 6px #aaa;
+}
+
+.card img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+.card button {
+    margin: 3px;
+    padding: 5px;
+}
