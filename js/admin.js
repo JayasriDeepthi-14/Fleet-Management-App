@@ -52,7 +52,7 @@ function renderCards(data) {
         card.className = "card";
 
         card.innerHTML = `
-            <img src="${imageURL}" style="height:150; width:300;"/>
+            <img src="${imageURL}" style="height:150px; width:300px;"/>
 
             <h4>${vehicle.regNo}</h4>
             <p>Category: ${vehicle.category}</p>
